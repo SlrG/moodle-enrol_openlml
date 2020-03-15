@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,13 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_openlml', language 'en'
+ * Strings for component 'enrol_openlml', language 'en', branch 'MOODLE_26_STABLE'
  *
- * @package    enrol
- * @subpackage openlml
- * @copyright  Frank Schütte <fschuett@gymnasium-himmelsthuer.de>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   enrol_openlml
+ * @copyright Frank Schütte <fschuett@gymnasium-himmelsthuer.de>
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+defined('MOODLE_INTERNAL') || die();
 
 $string['attic_description'] = 'Deleted teachers category';
 $string['attribute'] = 'group name attribute usual cn';
@@ -31,13 +33,27 @@ $string['contexts'] = 'one or more LDAP contexts separated by semicolon(;)';
 $string['contexts_key'] = 'contexts';
 $string['course_description'] = 'course category for teacher ';
 $string['enrolname'] = 'openlml';
+$string['eventattic_category_created'] = 'attic cytegory created';
+$string['eventcohort_created'] = 'cohort created';
+$string['eventcohort_enroled'] = 'cohort enroled in course';
+$string['eventcohort_member_added'] = 'member added to cohohrt';
+$string['eventcohort_member_removed'] = 'member removed from cohort';
+$string['eventcohort_members_removed'] = 'members removed from cohort';
+$string['eventcohort_removed'] = 'cohort removed';
+$string['eventcohort_unenroled'] = 'cohort unenroled from course';
+$string['eventteacher_category_created'] = 'teacher category created';
+$string['eventteacher_category_moved'] = 'teacher category moved';
+$string['eventteacher_category_removed'] = 'teacher category removed';
+$string['eventteacher_role_assigned'] = 'teacher role assigned in course';
+$string['eventteacher_role_unassigned'] = 'teacher role unassigned from course';
+$string['eventteachers_category_created'] = 'teachers category created';
 $string['member_attribute'] = 'LDAP group member attribute, usually memberuid';
 $string['member_attribute_key'] = 'group attribute';
 $string['object'] = 'LDAP object class, usually posixGroup';
 $string['object_key'] = 'object class';
-$string['openlmlsync'] = 'openlml enrolment sync';
-$string['pluginname_desc'] = '<p>This plugin is supposed to be used with german <strong>Open LML</strong> school server and is tailored to it\'s LDAP structure.</p><p>This plugin enrols users into courses based on the course <strong>idnumber</strong> (note: idnumber is a unique field, so make it unique by prepending course "shortname:")</p>';
+$string['openlmlsync'] = 'Open LML enrolment sync';
 $string['pluginname'] = 'Open LML Enrolment';
+$string['pluginname_desc'] = '<p>This plugin is supposed to be used with german <strong>Open LML</strong> school server and is tailored to it\'s LDAP structure.</p><p>This plugin enrols users into courses based on the course <strong>idnumber</strong> (note: idnumber is a unique field, so make it unique by prepending course "shortname:")</p>';
 $string['pluginnotenabled'] = 'Plugin not enabled!';
 $string['prefix_teacher_members'] = 'In courses with this prefix teachers can be enroled as members, comma(,) separated list';
 $string['prefix_teacher_members_key'] = 'teacher course prefix';
@@ -50,6 +66,7 @@ $string['student_project_prefix_key'] = 'project prefix';
 $string['student_role'] = 'Default student enrolment role, usually student';
 $string['student_role_key'] = 'student role';
 $string['students_settings'] = 'Students settings';
+$string['students_settings_desc'] = 'These settings affect student enrolment.';
 $string['sync_description'] = 'Synchronized with Open LML server';
 $string['teacher_context_desc'] = 'Automatic teacher courses category';
 $string['teachers_category_autocreate'] = 'The course category for a teacher is created automatically';
@@ -57,11 +74,15 @@ $string['teachers_category_autocreate_key'] = 'autocreate';
 $string['teachers_category_autoremove'] = 'The course category for a teacher is removed automatically';
 $string['teachers_category_autoremove_key'] = 'autoremove';
 $string['teachers_context_settings'] = 'teachers categories settings';
+$string['teachers_context_settings_desc'] = 'settings affecting the category, where teachers categories are placed';
 $string['teachers_course_context'] = 'teachers category, usually Lehrer';
 $string['teachers_course_context_key'] = 'teacher category';
 $string['teachers_course_role'] = 'teachers role in his/her own category, usually coursecreator';
 $string['teachers_course_role_key'] = 'teachers category role';
+$string['teachers_editingteacher_role'] = 'teachers teacher role in his/her own category, usually category teacher';
+$string['teachers_editingteacher_role_key'] = 'teachers course teacher role';
 $string['teacher_settings'] = 'teachers settings';
+$string['teacher_settings_desc'] = 'special groups with teachers as members are affected from this settings';
 $string['teachers_group_name'] = 'teachers group name, usually teachers';
 $string['teachers_group_name_key'] = 'teachers group';
 $string['teachers_ignore'] = 'teachers to be ignored (no autocreate/autoremove)';
@@ -83,4 +104,4 @@ $string['eventteacher_category_created'] = 'teacher category created';
 $string['eventteacher_category_removed'] = 'teacher category removed';
 $string['eventteacher_category_moved'] = 'teacher category moved';
 $string['eventteachers_category_created'] = 'teachers category created';
-$string['eventattic_category_created'] = 'attic cytegory created';
+
