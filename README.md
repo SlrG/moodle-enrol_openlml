@@ -39,6 +39,8 @@ Activate it and schedule it for hourly execution.
 
 Changelog
 ---------
+2020-03-15 Trying to fix problems on Moodle 3.8.2 by porting some changes from moodle_enrol_oss
+
 2016-06-16 fix unenrolment for failing ldap connection error
 
 2016-03-19 fix several errors
